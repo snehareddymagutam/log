@@ -1,0 +1,7 @@
+{"_id":"5da0d5246f75704c4433b91d","id":2,"name":"sham","age":9,"address":"123 street","level":"info","timestamp":"2019-10-13T23:18:08.886Z"}
+{"level":"error","message":"no db connection: MongoNetworkError: failed to connect to server [localhost:27018] on first connect [MongoNetworkError: connect ECONNREFUSED 127.0.0.1:27018]","timestamp":"2019-10-13T23:18:24.716Z"}
+{"level":"info","message":"app listening on port 3000!","timestamp":"2019-10-14T13:13:27.193Z"}
+{"message":"Not at specified port !!!","level":"warn","timestamp":"2019-10-14T16:09:50.356Z"}
+{"_id":"5da0d5246f75704c4433b91f","id":4,"name":"rose","age":9,"address":"wall street","level":"info","timestamp":"2019-10-14T16:09:51.388Z"}
+{"level":"info","message":"Example app listening on port 3000!","timestamp":"2019-10-14T16:22:42.117Z"}
+{"level":"debug","message":"127.0.0.1 --- debugging !","timestamp":"2019-10-14T16:22:43.145Z"}

@@ -1,0 +1,27 @@
+2019-10-11T17:14:04.965Z info: A request was received
+2019-10-11T17:14:04.991Z info: A request was received
+
+
+/* let logger = winston.createLogger({
+    level: 'info',
+    format: winston.format.combine(
+        winston.format.timestamp(),
+        winston.format.printf(info => {
+            return `${info.timestamp} ${info.level}: ${info.message}`;
+        })
+    ),
+    transports: [new winston.transports.Console()],
+    transports: [
+        new winston.transports.Console(),
+        new winston.transports.File({filename: 'app.log'})
+    ]
+});
+
+http.createServer(onRequest).listen(8080);
+
+function onRequest(request, response) {
+    logger.log('info', 'A request was received');
+    response.writeHead(200);
+    response.end();
+}
+*/
